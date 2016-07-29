@@ -1,14 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<div style="margin: 30px 0px">
+<h3>
   <%= @article.title %>
-</p>
+</h3>
 
 <p>
-  <strong>Content:</strong>
   <%= @article.content %>
 </p>
+
+</div>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
