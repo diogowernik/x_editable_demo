@@ -1,5 +1,0 @@
-== Rails 4 X-editable-rails demo
-
-Please read commits
-
-{Complete guide}[https://www.evernote.com/shard/s365/sh/b2517d45-3335-4801-9300-d1394eb0ba16/90675dd276ceb9ae39febff160e50e2a]
