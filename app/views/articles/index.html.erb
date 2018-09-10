@@ -19,7 +19,7 @@
       <tr>
         <td><%= editable article, :title %></td>
         <td><%= editable article, :content, type: :textarea %></td>
-        <td><%= editable article, :description, type: :wysihtml5 %></td>
+        <td><%= editable article, :description, type: :wysihtml5, :display_with => :simple_format %></td>
         <td><%= editable article, :select_something, type: :select, data: { source: ['iPhone', 'iPad', 'MacBook'] } %></td>
         <td><%= editable article, :is_published, type: :select, data: { source: ['Active', 'Disabled'] } %></td>
         <td><%= link_to 'Show', article %></td>

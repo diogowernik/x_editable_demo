@@ -1,8 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <div style="margin-bottom: 30px">
-<h3 style="margin: 30px 0px"> <%= editable @article, :title %> </h3>
-<p>  <%= editable @article, :content, type: "wysihtml5" %> </p>
+<h3 style="margin: 30px 0px"> 
+
+<%= editable @article, :title %> </h3>
+<%= editable @article, :content %> </p>
+<%= editable @article, :description, type: :wysihtml5 %>
+
+
 
 </div>
 
