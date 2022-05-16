@@ -4,5 +4,5 @@ this project is not ready yet, there are some new fields and things to fix!
 
     git clone https://github.com/diogowernik/x_editable_rails_demo.git
     bundle install
-    rake db:migrate
+    rails db:migrate
     rails s
