@@ -6,9 +6,3 @@ this project is not ready yet, there are some new fields and things to fix!
     bundle install
     rake db:migrate
     rails s
-
-
-Demo(is not updated with new fields yet):
-
-http://x-editable-rails-demo.herokuapp.com/
-
