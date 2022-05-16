@@ -1,0 +1,15 @@
+current directory: /Users/Diogo/WebDevelopment/Rails/x_editable_rails_demo/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/Diogo/.rvm/rubies/ruby-2.5.0/bin/ruby -I /Users/Diogo/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20220516-24851-1glngum.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Diogo/WebDevelopment/Rails/x_editable_rails_demo/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/Diogo/WebDevelopment/Rails/x_editable_rails_demo/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/Diogo/WebDevelopment/Rails/x_editable_rails_demo/vendor/bundle/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20220516-24851-1ag0pxz
